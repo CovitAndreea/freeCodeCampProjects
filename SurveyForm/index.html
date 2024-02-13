@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Candidate profile</title>
+</head>
+<body>
+<h1 name="title" id="title">Candidate Profile</h1>
+<p name="description" id="description">Complete the next form to find out if you are the missing piece of our company</p>
+<form name="survey-form" id="survey-form"
+      action="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form">
+  <label id="name-label">Name: <input name="name" id="name" type="text" placeholder="Enter your name" required /></label><br>
+  <label id="email-label">Email: <input name="email" id="email" type="email" placeholder="Enter your e-mail" required/></label><br>
+  <label id="number-label">Your age: <input class="age" name="age" id="number" type="number" min="18" max="100" placeholder="Enter your age"/></label><br>
+  <label for="dropdown">Are you looking for a job? </label>
+  <select name="answear" id="dropdown">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select>
+  <p>Do you have any work experience?</p>
+  <label><input name="experience" id="yes" type="radio" value="yes"/>Yes</label><br>
+  <label><input name="experience" id="no" type="radio" value="no"/>No</label>
+  <p>What programming languages do you know?</p>
+  <label><input name="python" id="python" type="checkbox" value="python"/>Python</label><br>
+  <label><input name="java" id="java" type="checkbox" value="java"/>Java</label><br>
+  <label><input name="javascript" id="javascript" type="checkbox" value="javascript"/>Javascript</label><br>
+  <label><input name="cpp" id="cpp" type="checkbox" value="cpp"/>C++</label><br>
+  <label><input name="csharp" id="csharp" type="checkbox" value="csharp"/>C#</label><br>
+  <label><input name="php" id="php" type="checkbox" value="php"/>PHP</label><br>
+  <label><input name="go" id="go" type="checkbox" value="go"/>Go</label><br>
+  <textarea name="info" id="info" rows="5" cols="100">Tell us a little about yourself...</textarea><br>
+  <label><input name="submit" id="submit" type="submit" value="Submit"/></label>
+</form>
+</body>
+</html>
